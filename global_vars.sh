@@ -22,7 +22,7 @@ HOSTID="$HOST_SYS_UUID"
 
 # These are the Namespace identifiers and Subsystem NQN for the Linux Ctrl soft target.
 # See the target-vm/tcp.json.in file for more information.
-SUBNQN="nqn.2014-08.org.nvmexpress:uuid:0c468c4d-a385-47e0-8299-6e95051277db"
+SUBNQN="nqn.2014-08.org.nvmexpress:uuid:0c468c4d-a425-47e0-8299-6e95051277db"
 NSNGUID="ace42e00-1510-2fce-2ee4-ac0000000001"
 NSUUID="bee9c2b7-1761-44b5-a4e6-0f690498a94b"
 
@@ -64,10 +64,10 @@ HOSTGW_IP3="192.168.110.1"
 HOSTGW_CIDR2="$HOSTGW_IP2/24"
 HOSTGW_CIDR3="$HOSTGW_IP3/24"
 
-ISO_VERSIONS="fedora-36|fedora-37|fedora-38"
+ISO_VERSIONS="fedora-36|fedora-37|fedora-42"
 ISOVERSION_F36="Fedora-Everything-netinst-x86_64-36-1.5.iso"
 ISOVERSION_F37="Fedora-Everything-netinst-x86_64-37-1.7.iso"
-ISOVERSION_F38="Fedora-Everything-netinst-x86_64-38_Beta-1.3.iso"
+ISOVERSION_F42="Fedora-Everything-netinst-x86_64-42-1.1.iso"
 
 OVMF_ZIP="timberland-ovmf-release-0f54758.zip"
 OVMF_URL="https://github.com/timberland-sig/edk2/releases/download/release-0f54758/"
